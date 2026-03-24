@@ -3,5 +3,5 @@ from .views import listar_tarefas, listar_abertas
 
 urlpatterns = [
     path('tarefas/', listar_tarefas),
-    path('tarefas/abertas', listar_abertas)
+    path('tarefas/abertas/', listar_abertas)
 ]
