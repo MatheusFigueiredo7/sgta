@@ -3,5 +3,5 @@ from .views import *
 
 urlpatterns = [
     path('usuarios/', listar_usuarios),
-    path('usuarios/<int:id>', buscar_usuario_por_id)
+    path('usuarios/<int:id>/', buscar_usuario_por_id)
 ]
